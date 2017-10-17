@@ -11,7 +11,6 @@ const unsigned long debounceDelay = 100;
 int buttonState;
 
 void buttonPressed() {
-
   if((millis()-lastDebounceTime) > debounceDelay) {
         pressed++;
         Serial.print(pressed);

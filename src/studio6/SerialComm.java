@@ -7,7 +7,6 @@ public class SerialComm {
 	SerialPort port;
 
 	private boolean debug;  // Indicator of "debugging mode"
-	
 	// This function can be called to enable or disable "debugging mode"
 	void setDebug(boolean mode) {
 		debug = mode;
