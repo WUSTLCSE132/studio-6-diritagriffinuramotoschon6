@@ -12,7 +12,6 @@ public class SerialComm {
 		debug = mode;
 	}	
 	
-
 	// Constructor for the SerialComm class
 	public SerialComm(String name) throws SerialPortException {
 		port = new SerialPort(name);		
